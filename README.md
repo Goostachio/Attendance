@@ -38,8 +38,8 @@
 3. Enter **Grid width** – required, minimum = `3`.
 4. Enter **Grid height** – required, minimum = `3`.
 5. Enter the **Number of consecutive symbols to win** – required.
-6. Enter a **Time limit** for the game room.
-7. Enter your **Player name** – required and must be unique.
+6. Enter a **Time limit** for the game room - optional.
+7. Enter your **Player name** – required and must be unique from other active users
 
 ---
 
@@ -49,6 +49,7 @@
 2. The **guest** takes the next move.
 3. Both players can **chat** during the game.
 4. Either player can **surrender**, which closes the room.
+5. The room will be closed after the game or timer is finished
 
 ---
 
