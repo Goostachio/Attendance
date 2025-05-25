@@ -1,20 +1,18 @@
-# How to Play: Our Tic-Tac-Toe
-
----
+# How to Play
 
 ## System Requirements
-- Java Runtime Environment must be installed.
+- Java Runtime Environment installed
 - Minimum screen resolution: **1366x768**
 
 ---
 
-## How to Run
+## How to Run the Game
 
-1. Find the folder named **"executable game & server"**.
+1. Locate the folder named **"executable game & server"**
 2. Run the server:
-   - Double-click the batch file named **`tictactoe_server.bat`**.
+   - Execute the batch file: **`tictactoe_server.bat`**
 3. Run the game:
-   - Double-click the Java executable file **`tictactoe.jar`**.
+   - Execute the Java file: **`tictactoe.jar`**
 
 ---
 
@@ -22,43 +20,49 @@
 
 ### Join a Room
 
-1. Choose a room from the **Room list**.
-2. View details in the **Room information** panel.
-3. Enter the **room password** (only the host knows it).
-4. Enter your **player name** (must be unique from the host and all other active players).
-5. Click the **Join** button to enter the **Waiting Room**.
-6. Wait for the host to start the game.
+1. Choose a room from the **Room List**
+2. View details in **Room Information**
+3. Enter the **room password** (only the host knows it)
+4. Enter your **name**  
+   - Must be **unique** (not same as host or any other active player)
+5. Click **Join** to enter the **Wait Room**
+6. Wait for the **host to start the game**
 
 ---
 
 ### Host a Room
 
-1. Enter a **Room name** – required, and must be unique.
-2. Enter a **Password** – optional.
-3. Enter **Grid width** – required, minimum = `3`.
-4. Enter **Grid height** – required, minimum = `3`.
-5. Enter the **Number of consecutive symbols to win** – required.
-6. Enter a **Time limit** for the game room - optional.
-7. Enter your **Player name** – required and must be unique from other active users
+1. Enter a **room name**  
+   - Required, must be **unique** among active rooms
+2. Enter a **password** *(optional)*
+3. Enter **grid width**  
+   - Required, **minimum = 3**
+4. Enter **grid height**  
+   - Required, **minimum = 3**
+5. Enter **consecutive symbols required to win**  
+   - Required, **minimum = min(width, height)**
+6. Enter **game room time limit**
+7. Enter **your name**  
+   - Required, must be **unique** among active users
 
 ---
 
-### Play
+### Gameplay
 
-1. The **host** starts the game with the first move.
-2. The **guest** takes the next move.
-3. Both players can **chat** during the game.
-4. Either player can **surrender**, which closes the room.
-5. The room will be closed after the game or timer is finished
+1. Host makes the **first move**
+2. Guest takes the **next move**
+3. **Host and guest can chat** while playing
+4. Either player can **surrender**, which **closes the room**
+5. Player and host goes back to waiting room after the game concluded (timer runs out or result is obtained)
 
 ---
 
 ## View Rankings
 
-- Click **"Ranking"** in the **Main Menu** to view the leaderboard.
+- Click **"Ranking"** in the **Main Menu** to view the leaderboard
 
 ---
 
-## View Additional Information
+## More Information
 
-- Click **"More Information & How to Play"** in the **Main Menu**.
+- Click **"More Information & How to Play"** in the **Main Menu**
