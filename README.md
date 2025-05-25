@@ -53,7 +53,8 @@
 2. Guest takes the **next move**
 3. **Host and guest can chat** while playing
 4. Either player can **surrender**, which **closes the room**
-5. Player and host goes back to waiting room after the game concluded (timer runs out or result is obtained)
+5. Host goes back to waiting room after the game concludes (timer runs out or result is obtained)
+6. Player goes back to main menu after the game concludes
 
 ---
 
