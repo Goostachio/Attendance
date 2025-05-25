@@ -1,4 +1,4 @@
-# How to Play: Tic-Tac-Toe Game
+# How to Play: Our Tic-Tac-Toe
 
 ---
 
